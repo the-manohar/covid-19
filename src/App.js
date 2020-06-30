@@ -70,7 +70,7 @@ function App() {
   ));
 
   const lastUpdated = new Date(parseInt(Data.updated));
-  const date = `Last Updated ${lastUpdated}.toString();`;
+  const date = `Last Updated ${lastUpdated}.`;
 
   var queries = [
     {
